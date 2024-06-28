@@ -29,7 +29,7 @@ git clone https://github.com/SeAkbs/Sentiment-Analysis.git
  Tensorflow GPU için;
  Tensorflow kurarken iki seçeneğiniz var. CPU veya GPU. Eğer uygun ekran kartınız varsa kesinlikle GPU için kurulum yapın, CPU'ya göre daha hızlı eğitim gerçekleşecek. Nvidia'dan farklı bir ekran kartınız varsa CPU için kurulum yapmanız gerekiyor. Sadece Nvidia ekran kartları destekleniyor. Ekran kartınızda CUDA compute capability 3.5'den büyükse Tensorflow'u GPU için kurabilirsiniz. Aşağıdaki linkten ekran kartınız uygun mu kontrol edebilirsiniz.
 
-ÖNEMLİ NOT: Kursu sorunsuz takip edebilmek için Tensorflow'un 1.14 sürümünü kurmanızı tavsiye ederim. Aşağıdaki kurulumların tamamı 1.14 sürümü içindir.
+ÖNEMLİ NOT:Aşağıdaki kurulumların tamamı 1.14 sürümü içindir.
 
 https://developer.nvidia.com/cuda-gpus
 
@@ -65,8 +65,6 @@ Gelişmiş sistem ayarları/ortam değişkenleri
 Açılan pencerede sistem değişkenleri bölümünden Path'i seçip düzenleye tıklayın.
 
 Aşağıdaki adresleri Yeni'ye tıklayarak tek tek ekleyin (Kurulumu farklı bir yere yaptıysanız o adresi verin)
-
-NVIDIA Installer failed / NVIDIA kurulum programı başarısız hatası alırsanız çözümü aşağıdadır.
 
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\libnvvp
