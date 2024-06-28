@@ -21,11 +21,11 @@ Bu proje, Kazakça veri seti kullanarak Python ile sentiment analiz yapmayı ama
 
 Projeyi çalıştırmak için aşağıdaki adımları izleyin:
 1. Depoyu klonlayın:
-   ```bash
-   git clone https://github.com/SeAkbs/Sentiment-Analysis.git
+
+git clone https://github.com/SeAkbs/Sentiment-Analysis.git
 
 2.Gerekli kurulumları yapın
- ```bash
+
  Anaconda (https://www.anaconda.com/download/)
  Tensorflow GPU için;
  Tensorflow kurarken iki seçeneğiniz var. CPU veya GPU. Eğer uygun ekran kartınız varsa kesinlikle GPU için kurulum yapın, CPU'ya göre daha hızlı eğitim gerçekleşecek. Nvidia'dan farklı bir ekran kartınız varsa CPU için kurulum yapmanız gerekiyor. Sadece Nvidia ekran kartları destekleniyor. Ekran kartınızda CUDA compute capability 3.5'den büyükse Tensorflow'u GPU için kurabilirsiniz. Aşağıdaki linkten ekran kartınız uygun mu kontrol edebilirsiniz.
@@ -39,11 +39,11 @@ https://developer.nvidia.com/cuda-gpus
 Komut penceresini açın. (Windows+R ile çalıştırı açıp cmd yazabilirsiniz)
 
 Açılan komut penceresinde aşağıdaki pip install'u çalıştırın 
-```bash
+
 C:\> pip install --upgrade tensorflow==1.14
 
 CPU için kurulum bu kadar. Komut penceresinde "python" yazıp aşağıdaki kod ile test edebilirsiniz:
-```bash
+
 >>> import tensorflow as tf>>> hello = tf.constant('Hello, TensorFlow!')>>> sess = tf.Session()>>> print(sess.run(hello))
 
 Not: import tensorflow as tf yazdıktan sonra FutureWarning alabilirsiniz. Bu bir hata değil sadece numpy ile ilgili bir uyarı. Kodlarınız sorunsuz çalışacaktır.
